@@ -1,4 +1,6 @@
 function main(){
- alert("Hola tigreton!!!");   
+    var stdout = document.getElementById("stdout")
+    stdout.innerHTML += "stdout: The world is a Vampire"
+    alert("stderr: Hola tigretooon!!!");   
 
 }
